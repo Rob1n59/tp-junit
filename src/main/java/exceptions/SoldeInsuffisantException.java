@@ -1,7 +1,12 @@
 package exceptions;
 
 public class SoldeInsuffisantException extends RuntimeException {
-    public SoldeInsuffisantException(String message) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public SoldeInsuffisantException(String message) {
         super(message);
     }
 }
